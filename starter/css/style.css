@@ -2,40 +2,39 @@
 :root {
   --headingColor: #6b705c;
   --backgroundColor: #ddbea9;
-
 }
 
 body {
-  margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
-  background-color: #fdf7f2;
-}
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #fdf7f2;
+  }
 
 header {
-  display:flex;
-  justify-content: space-between;
-  background-color: #6b705c;
-  padding: 10px;
-}
+    display:flex;
+    justify-content: space-between;
+    background-color: #6b705c;
+    padding: 10px;
+  }
 
 
 h1{
-  display:flex;
-  align-items: flex-start;
-  color: #6b705c;
-  border: solid 2px #ddbea9;
-  background-color: #ddbea9;
-  padding-left: 100px;
-}
+    display:flex;
+    align-items: flex-start;
+    color: #6b705c;
+    border: solid 2px #ddbea9;
+    background-color: #ddbea9;
+    padding-left: 100px;
+  } 
 
 
 #navBar{
-  padding-right: 0px;
-  display:flex;
+    padding-right: 0px;
+    display:flex;
   }
 
-  ul{
+ul{
     display: flex;
     justify-content: space-evenly;
     width: 400px;
@@ -43,30 +42,189 @@ h1{
     text-decoration: none;
   }
 
-  a {
+a {
     color: #ddbea9;
   }
 
 .heroBanner{
-  display:flex;
-  flex-direction: row-reverse;
-  align-items: end;
-  background-image: url(/Portfolio-Website/starter/images/heroBackground.jpg);
-  height: 200px;
-  color: #6b705c;
-  background-color:#ddbea9;
-}
+    display:flex;
+    justify-content: end;
+    align-items: end;
+    background-image: url(/Portfolio-Website/starter/images/heroBackground.jpg);
+    height: 200px;
+    color: #6b705c;
+    background-color:#ddbea9; 
+  }
 
 #subtitle{
-background-color:#ddbea9;
-margin: 20px;
-margin-right: 50px;
-padding-left: 10px;
-}
+    background-color:#ddbea9;
+    margin: 20px;
+    margin-right: 50px;
+    padding-left: 10px;
+    height: 50px;
+    width: 200px
+  }
 
 main {
-  padding: 100px;
+    padding: 100px;
+    color:#6b705c;
+  }
+
+.pageSection {
+  display: center;
 }
+
+  .pageSection h2{
+    border-right: solid 10px #6b705c;
+    display: flex;
+    flex-direction:column; 
+    align-items: start;
+    width: 150px;
+    margin-right: 20px;
+  }
+
+  .pageSection p{
+    margin-left: 200px;
+  }
+
+ /* .pageSection div{
+    margin-left: 100px;
+  }*/
+
+#work {
+    padding: 20px;
+}
+
+
+  .portfolioGrid { 
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "project1 project1"
+    "project2 project3"
+    "project4 project5";
+  }
+
+  .project1 {
+    grid-area: project1;
+    border:#ddbea9 10px;
+    background-image: url(/Portfolio-Website/starter/images/02-portfolio-1.jpg);
+    height: 300px;
+    margin:20px;
+    display: flex;
+    align-items: flex-end;
+    width: 1000px;
+  }
+
+  .project1 a{ 
+    width: 200px;
+    height: 50px;
+    background-color: #ddbea9;
+    color: #6b705c;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .project2 {
+    grid-area:project2;
+    border:#ddbea9 10px;
+    background-image: url(/Portfolio-Website/starter/images/02-portfolio-2.jpg);
+    height: 300px;
+    margin:20px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .project2 a{ 
+    width: 200px;
+    height: 50px;
+    background-color: #ddbea9;
+    color: #6b705c;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-left: 10px;
+    
+  }
+
+  .project3 {
+    grid-area:project3;
+    border:#ddbea9 10px;
+    background-image: url(/Portfolio-Website/starter/images/02-portfolio-3.jpg);
+    height: 300px;
+    margin:20px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .project3 a{ 
+    width: 200px;
+    height: 50px;
+    background-color: #ddbea9;
+    color: #6b705c;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-left: 10px;
+  }
+
+  .project4 {
+    grid-area: project4;
+    border:#ddbea9 10px;
+    background-image: url(/Portfolio-Website/starter/images/02-portfolio-4.jpg);
+    height: 300px;
+    margin:20px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .project4 a{ 
+    width: 200px;
+    height: 50px;
+    background-color: #ddbea9;
+    color: #6b705c;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-left: 10px;
+    
+  }
+
+  .project5 {
+    grid-area: project5;
+    border:#ddbea9 10px;
+    background-image: url(/Portfolio-Website/starter/images/02-run-buddy.jpg);
+    height: 300px;
+    margin:20px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .project5 a{ 
+    width: 200px;
+    height: 50px;
+    background-color: #ddbea9;
+    color: #6b705c;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-left: 10px;
+  }
+
+  .pageSection-contact a{
+    display:flex;
+    display: inline;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: 180px;
+  }
+
+
 
 
 h1,
