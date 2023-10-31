@@ -10,7 +10,7 @@ This website has been created in order to show my work and contact details to po
 
 Open website using link above. The website should look as screenshot below. 
 
-![Website Screenshot](/images/websiteScreenshot.png)
+![Website Screenshot](/assets/images/websiteScreenshot.png)
 
 Use the titles at the top of the screen to the right to navigate to the desired section. 
 Please click the titles of the images in order to view applications I have created. 
