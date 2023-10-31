@@ -19,7 +19,7 @@ header {
   }
 
 
-h1{
+h1 { 
     display:flex;
     align-items: flex-start;
     color: #6b705c;
@@ -29,21 +29,20 @@ h1{
   } 
 
 
-#navBar{
+#navBar {
     padding-right: 0px;
     display:flex;
   }
 
-ul{
+ul {
     display: flex;
     justify-content: space-evenly;
     width: 400px;
     list-style-type: none;
   }
 
-li a{
+li a {
     color: #ddbea9;
-    
   }
 
 .heroBanner{
@@ -54,6 +53,7 @@ li a{
     height: 200px;
     color: #6b705c;
     background-color:#ddbea9; 
+    width: 100%;
   }
 
 #subtitle{
@@ -66,13 +66,13 @@ li a{
   }
 
 main {
-    padding: 100px;
+    padding: 20px;
     color:#6b705c;
     display: inline-block;
   }
 
 .pageSection {
-  display: center;
+ /* display: center;*/
   border-top: solid #6b705c 3px; 
 }
 
@@ -88,6 +88,7 @@ main {
   .pageSection p{
         margin-left: 200px;
         margin-bottom: 100px;
+        width:fit-content;
 
   }
 
@@ -99,14 +100,14 @@ main {
   .portfolioGrid { 
     
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
     "project1 project1"
     "project2 project3"
     "project4 project5";
-    width: 1200px;
-    margin-left: 175px;
+    /*width: 1200px;*/
+    margin-left: 150px;
     margin-bottom: 100px;
     
   }
@@ -116,7 +117,7 @@ main {
     background-image: url(/images/Project1.jpg);
     background-position: center;
     height: 200px;
-    width: 1210px;
+    /*width: 1210px;*/
     margin: 5px;
     display: flex;
     align-items: end;
@@ -144,7 +145,7 @@ main {
     background-position: center;
     background-size:cover;
     height: 200px;
-    width: 600px;
+    /*width: 600px;*/
     margin: 5px;
     display: flex;
     align-items: end;
@@ -152,7 +153,7 @@ main {
     box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project2 h3{ 
+  .project2 h3 {  
     width: 200px;
     height: 50px;
     background-color: #ddbea9;
@@ -170,7 +171,7 @@ main {
     background-image: url(/images/Project3.jpg);
     background-position: center;
     height: 200px;
-    width: 600px;
+   /*width: 600px;*/
     margin: 5px;
     display: flex;
     align-items: end;
@@ -178,7 +179,7 @@ main {
     box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project3 h3{ 
+  .project3 h3 { 
     width: 250px;
     height: 50px;
     background-color: #ddbea9;
@@ -195,7 +196,7 @@ main {
     background-image: url(/images/Project4.jpg);
     background-position: center;
     height: 200px;
-    width: 600px;
+   /*width: 600px;*/
     margin: 5px;
     display: flex;
     align-items: end;
@@ -203,7 +204,7 @@ main {
     box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project4 h3{ 
+  .project4 h3 { 
     width: 200px;
     height: 50px;
     background-color: #ddbea9;
@@ -221,7 +222,7 @@ main {
     background-image: url(/images/Project5.jpg);
     background-position: center;
     height: 200px;
-    width: 600px;
+    /*width: 600px;*/
     margin: 5px;
     display: flex;
     align-items: end;
@@ -229,7 +230,7 @@ main {
     box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project5 h3{ 
+  .project5 h3 { 
     width: 350px;
     height: 50px;
     background-color: #ddbea9;
@@ -241,7 +242,7 @@ main {
     margin-bottom: 15px
   }
 
-a{ 
+a { 
   color: #6b705c;
   text-decoration: none;
 }
@@ -253,11 +254,11 @@ a{
 }
 
 
-  .pageSection-contact a{
-    display:flex;
-    display: inline;
-    justify-content: space-evenly;
-    padding: 20px;
-    margin-left: 180px;
+ /* .pageSection-contact a {
     
+  }*/
+
+  #contact a {
+     display: inline;
+     margin-left: 150px;
   }
