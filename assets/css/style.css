@@ -111,7 +111,7 @@ main {
 
 .project1 {
     grid-area: project1;
-    background-image: url(/assets/images/Project1.jpg);
+    background-image: url(../images/Project1.jpg);
     background-position: center;
     height: 200px;
     margin: 5px;
