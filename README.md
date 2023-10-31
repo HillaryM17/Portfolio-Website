@@ -5,12 +5,12 @@ This website has been created in order to show my work and contact details to po
 ## Usage
 
 
-[Hillary-Profile-Website] (https://hillarym17.github.io/Portfolio-Website/)
+[Website-Portfolio](https://hillarym17.github.io/Portfolio-Website/)
 
 
 Open website using link above. The website should look as screenshot below. 
 
-![alt/text] (/images\websiteScreenshot.png)
+![Website Screenshot](/images/websiteScreenshot.png)
 
 Use the titles at the top of the screen to the right to navigate to the desired section. 
 Please click the titles of the images in order to view applications I have created. 
