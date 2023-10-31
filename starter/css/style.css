@@ -38,19 +38,19 @@ ul{
     display: flex;
     justify-content: space-evenly;
     width: 400px;
-    color:#ddbea9;
-    text-decoration: none;
+    list-style-type: none;
   }
 
-a {
+li a{
     color: #ddbea9;
+    
   }
 
 .heroBanner{
     display:flex;
     justify-content: end;
     align-items: end;
-    background-image: url(/Portfolio-Website/starter/images/heroBackground.jpg);
+    background-image: url(/starter/images/heroBackground.jpg);
     height: 200px;
     color: #6b705c;
     background-color:#ddbea9; 
@@ -68,28 +68,28 @@ a {
 main {
     padding: 100px;
     color:#6b705c;
+    display: inline-block;
   }
 
 .pageSection {
   display: center;
+  border-top: solid #6b705c 3px; 
 }
 
   .pageSection h2{
-    border-right: solid 10px #6b705c;
     display: flex;
     flex-direction:column; 
     align-items: start;
     width: 150px;
     margin-right: 20px;
+    margin-top: 20px;
   }
 
   .pageSection p{
-    margin-left: 200px;
-  }
+        margin-left: 200px;
+        margin-bottom: 100px;
 
- /* .pageSection div{
-    margin-left: 100px;
-  }*/
+  }
 
 #work {
     padding: 20px;
@@ -105,42 +105,54 @@ main {
     "project1 project1"
     "project2 project3"
     "project4 project5";
+    width: 1200px;
+    margin-left: 175px;
+    margin-bottom: 100px;
+    
   }
 
   .project1 {
     grid-area: project1;
-    border:#ddbea9 10px;
-    background-image: url(/Portfolio-Website/starter/images/02-portfolio-1.jpg);
-    height: 300px;
-    margin:20px;
+    background-image: url(/starter/images/Project1.jpg);
+    background-position: center;
+    height: 200px;
+    width: 1210px;
+    margin: 5px;
     display: flex;
-    align-items: flex-end;
-    width: 1000px;
+    align-items: end;
+    transition: all 0.5s ease-in-out;
+    box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
+    
   }
 
-  .project1 a{ 
+  .project1 h3 { 
+    
     width: 200px;
     height: 50px;
+    padding-left: 10px;
+    margin-bottom: 15px;
     background-color: #ddbea9;
     color: #6b705c;
     display: flex;
     justify-content: start;
-    align-items: flex-end;
-    padding-left: 10px;
-    margin-bottom: 15px;
+    align-items: flex-end;    
   }
 
   .project2 {
     grid-area:project2;
-    border:#ddbea9 10px;
-    background-image: url(/Portfolio-Website/starter/images/02-portfolio-2.jpg);
-    height: 300px;
-    margin:20px;
+    background-image: url(/starter/images/Project2.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 600px;
+    margin: 5px;
     display: flex;
-    align-items: flex-end;
+    align-items: end;
+    transition: all 0.5s ease-in-out;
+    box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project2 a{ 
+  .project2 h3{ 
     width: 200px;
     height: 50px;
     background-color: #ddbea9;
@@ -149,21 +161,25 @@ main {
     justify-content: start;
     align-items: flex-end;
     padding-left: 10px;
+    margin-bottom: 15px
     
   }
 
   .project3 {
     grid-area:project3;
-    border:#ddbea9 10px;
-    background-image: url(/Portfolio-Website/starter/images/02-portfolio-3.jpg);
-    height: 300px;
-    margin:20px;
+    background-image: url(/starter/images/Project3.jpg);
+    background-position: center;
+    height: 200px;
+    width: 600px;
+    margin: 5px;
     display: flex;
-    align-items: flex-end;
+    align-items: end;
+    transition: all 0.5s ease-in-out;
+    box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project3 a{ 
-    width: 200px;
+  .project3 h3{ 
+    width: 250px;
     height: 50px;
     background-color: #ddbea9;
     color: #6b705c;
@@ -171,19 +187,23 @@ main {
     justify-content: start;
     align-items: flex-end;
     padding-left: 10px;
+    margin-bottom: 15px
   }
 
   .project4 {
     grid-area: project4;
-    border:#ddbea9 10px;
-    background-image: url(/Portfolio-Website/starter/images/02-portfolio-4.jpg);
-    height: 300px;
-    margin:20px;
+    background-image: url(/starter/images/Project4.jpg);
+    background-position: center;
+    height: 200px;
+    width: 600px;
+    margin: 5px;
     display: flex;
-    align-items: flex-end;
+    align-items: end;
+    transition: all 0.5s ease-in-out;
+    box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project4 a{ 
+  .project4 h3{ 
     width: 200px;
     height: 50px;
     background-color: #ddbea9;
@@ -192,21 +212,25 @@ main {
     justify-content: start;
     align-items: flex-end;
     padding-left: 10px;
+    margin-bottom: 15px
     
   }
 
   .project5 {
     grid-area: project5;
-    border:#ddbea9 10px;
-    background-image: url(/Portfolio-Website/starter/images/02-run-buddy.jpg);
-    height: 300px;
-    margin:20px;
+    background-image: url(/starter/images/Project5.jpg);
+    background-position: center;
+    height: 200px;
+    width: 600px;
+    margin: 5px;
     display: flex;
-    align-items: flex-end;
+    align-items: end;
+    transition: all 0.5s ease-in-out;
+    box-shadow:inset 0px 0px 8px #cc9475, 0 0 15px #cc9475
   }
 
-  .project5 a{ 
-    width: 200px;
+  .project5 h3{ 
+    width: 350px;
     height: 50px;
     background-color: #ddbea9;
     color: #6b705c;
@@ -214,7 +238,20 @@ main {
     justify-content: start;
     align-items: flex-end;
     padding-left: 10px;
+    margin-bottom: 15px
   }
+
+a{ 
+  color: #6b705c;
+  text-decoration: none;
+}
+
+.pageSection-contact {
+  border-top: solid #6b705c 3px; 
+  border-bottom: solid #6b705c 3px; 
+  padding-bottom: 100px;
+}
+
 
   .pageSection-contact a{
     display:flex;
@@ -222,20 +259,5 @@ main {
     justify-content: space-evenly;
     padding: 20px;
     margin-left: 180px;
+    
   }
-
-
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
